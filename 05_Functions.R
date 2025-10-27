@@ -275,6 +275,50 @@ count_words <- function(sentence) {
 count_words("Hello world this is a test")
 
 # =============================================================================
+# GLOSSARY AND DEFINITIONS
+# =============================================================================
+
+# Function: A reusable block of code that performs a specific task
+# Parameter: A variable in a function definition that receives a value
+# Argument: A value passed to a function when it is called
+# Return Value: The result that a function produces
+# Default Parameter: A parameter with a predefined value
+# Optional Parameter: A parameter that doesn't need to be specified
+# Required Parameter: A parameter that must be provided
+# Function Body: The code inside a function that executes
+# Local Variable: A variable defined inside a function
+# Global Variable: A variable defined outside any function
+# Scope: The context where a variable is accessible
+# Recursion: When a function calls itself
+# Anonymous Function: A function without a name
+# Closure: A function that captures variables from its environment
+# Higher-order Function: A function that takes other functions as arguments
+# Pure Function: A function with no side effects
+# Side Effect: Any change to state outside the function
+
+# =============================================================================
+# FUNCTION TYPES
+# =============================================================================
+
+# Built-in Functions: Functions that come with R (e.g., mean, sum, length)
+# User-defined Functions: Functions created by the user
+# Anonymous Functions: Functions defined inline without a name
+# Recursive Functions: Functions that call themselves
+# Vectorized Functions: Functions that work on entire vectors at once
+# Nested Functions: Functions defined inside other functions
+
+# =============================================================================
+# FUNCTION DESIGN PATTERNS
+# =============================================================================
+
+# Pure Functions: Return output based only on input, no side effects
+# Helper Functions: Small functions that support larger functions
+# Validation Functions: Check if input meets requirements
+# Utility Functions: Perform common tasks
+# Factory Functions: Create and return other functions
+# Callback Functions: Functions passed as arguments to other functions
+
+# =============================================================================
 # KEY TAKEAWAYS
 # =============================================================================
 
@@ -286,6 +330,8 @@ count_words("Hello world this is a test")
 # 6. Functions can work with any data type
 # 7. Functions can call themselves (recursion)
 # 8. Always test your functions with different inputs
+# 9. Use meaningful function names
+# 10. Document your functions with comments
 
 # Next: Move to Module 2 - Data Analysis & Statistics!
 # Start with 06_Data_Import_Export.R
